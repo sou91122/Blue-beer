@@ -1,0 +1,182 @@
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  
+    
+  
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+   
+}
+/* Extra large devices (large desktops, 1300px and up) */
+@media (min-width: 1300px) {
+}
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .login-page-main .right-area .right-main {
+        width: 100%;
+        margin: auto;
+    }
+    .login-page-main .right-area .form-group {
+        width: 100%;
+    }
+    .login-page-main .right-area {
+        padding: 85px 40px 80px;
+    }
+  
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .login-page-main .right-area .form-group {
+        width: 100%;
+    }
+    .login-page-main .right-area .right-main {
+        width: 100%;
+        margin: auto;
+    }
+    .login-page-main .right-area {
+        padding: 80px 40px 80px;
+    }
+    .product-details-main .left-area .product-details-area .exzoom {
+        padding-bottom: 50px;
+    }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    header .header-area ul.menu-area li {
+        width: 18px;
+    }
+    header .header-area .logo-part li{
+        width:90px;
+    }
+    .login-page-main .left-area{
+        margin-bottom: 50px;
+    }
+    .toggle-menu-area .menu-box .head-area a {
+        font-size: 18px;
+    }
+    .toggle-menu-area .menu-box ul li a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .cart-main-area .all-item {
+        padding: 0 25px;
+    }
+    .cart-main-area .head-area {
+        padding: 20px 25px;
+    }
+    .product-details-main .right-area .product-info h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .product-details-main .right-area .product-info h4 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .product-details-main .left-area .product-details-area {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .product-details-main .left-area .product-details-area .exzoom {
+        width: 100%;
+    }
+    .product-details-main .left-area .product-details-area .exzoom .exzoom_img_box {
+        width: 100% !important;
+    }
+    .product-details-main .left-area .product-details-area .exzoom .exzoom_img_ul_outer {
+        width: 100% !important;
+    }
+    .breadcrumb-area {
+        padding: 25px 0;
+    }
+    .product-header .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .filter-main-menu ul.product-list li {
+        padding-right: 25px;
+        padding-bottom: 10px;
+
+    }
+    .filter-main-menu ul.filter-btn {
+        padding-right: 25px;
+        padding-bottom: 10px;
+
+    }
+    .filter-main-menu ul.shorting li {
+        padding-right: 25px;
+        padding-bottom: 10px;
+    }
+    .filter-main-menu ul.viewtype-main li.view-type1 {
+        margin-right: 10px;
+    }
+    .filter-main-menu {
+        display: flex;
+        padding: 0 0 25px;
+    }
+    .breadcrumb-area h1 {
+        font-size: 32px;
+        font-weight: 600;
+        color: #000;
+    }
+    .all-product-sec .container .row.flex-column .pdt-item-box {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .all-product-sec .container .row.flex-column .pdt-item-box .pdtinfo2 {
+        padding: 35px 0 0;
+    }
+
+}
+@media (max-width: 575.98px) {
+    header .header-area ul.menu-area li {
+        margin-right: 15px;
+    }
+    [dir='rtl'] header .header-area ul.menu-area li{
+        margin-left: 11px;
+    }
+    .banner-info {
+        position: relative;
+        text-align: center;
+        padding: 25px 0 0;
+        top:0;
+        left:0;
+    }
+    .toggle-menu-area {
+        width: 80%;
+    }
+    .toggle-menu-area .menu-box {
+        padding: 15px 25px;
+    }
+    .cart-main-area{
+        width: 80%;
+    }
+    .cart-main-area .cart-item .remove-part {
+        position: absolute;
+        bottom: 2px;
+        right: 0;
+    }
+    .filter-main-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 0 25px;
+    }
+ }
+
+@media(max-width: 320px) {
+
+}
+
